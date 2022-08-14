@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FoodOrderingApp</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="burger_description">Huge Burger with Extra Cheese</string>
+    <string name="biryani_description">1x Plate Full Chicken Biryani with Salad</string>
+    <string name="handi_description">Full Chicken Handi with Butter</string>
+    <string name="manchurian_description">Hot and Spice Chinese with Fried Rice</string>
+
+</resources>

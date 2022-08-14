@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        tools:context=".HomePage">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EAE7DF"
+            android:elevation="10dp"
+            android:orientation="horizontal">
+            <ImageButton
+                android:layout_width="70dp"
+                android:id="@+id/back_btn"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#0000ffff"
+                android:src="@drawable/ic_baseline_arrow_back_ios_24"
+                ></ImageButton>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chinese Foods"
+                android:textSize="28sp"
+                android:textColor="#3E3205"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:layout_marginTop="16dp">
+
+            </TextView>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="-20dp"
+            android:src="@drawable/chinese_bg"
+            ></ImageView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            android:id="@+id/burger_item1"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardMaxElevation="12dp"
+            android:layout_margin="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="0
+"
+                    app:srcCompat="@drawable/chinese" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:text="Xinjiang\nGrasping"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="650/pkr"
+                        android:textColor="#BD0808"
+                        android:textSize="20sp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/manchurian_description"
+                        android:textColor="#6E6D6D"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:src="@drawable/star"></ImageView>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star"></ImageView>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star"></ImageView>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star"></ImageView>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star"></ImageView>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="30 mins"
+                            android:textColor="#292929"
+                            android:textSize="20sp"></TextView>
+                        <ImageButton
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/clock"
+                            android:layout_marginTop="0dp"
+                            android:background="#0000ffff"
+
+                            ></ImageButton>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/forward"></ImageView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            android:id="@+id/burger_item2"
+            app:cardCornerRadius="20dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardMaxElevation="12dp"
+            android:layout_margin="5dp"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="0
+"
+                    app:srcCompat="@drawable/chinese" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:layout_weight="1"
+                        android:text="Manchurian"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="700/pkr"
+                        android:textColor="#BD0808"
+                        android:textSize="20sp"
+                        android:textStyle="bold"></TextView>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/manchurian_description"
+                        android:textColor="#6E6D6D"
+                        android:textSize="14sp"
+                        android:textStyle="bold"></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="24dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:src="@drawable/star"></ImageView>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star"></ImageView>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star"></ImageView>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/star"></ImageView>
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:text="30 mins"
+                            android:textColor="#292929"
+                            android:textSize="20sp"></TextView>
+                        <ImageButton
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/clock"
+                            android:layout_marginTop="0dp"
+                            android:background="#0000ffff"
+
+                            ></ImageButton>
+
+                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/forward"></ImageView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
